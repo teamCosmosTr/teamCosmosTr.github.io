@@ -14,7 +14,7 @@ body {
 
 /* Navbar Styles */
 .navbar {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, #08c1f0, #143df7);
     color: white;
     padding-inline: 20px;
     position:relative;
@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -36,6 +36,8 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     color: white;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .navbar .nav-links {
@@ -58,17 +60,19 @@ body {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 100px 20px;
-    padding-bottom: 20%;
+    /* padding: 100px 20px; */
+    padding-top: 12.5%;
+    padding-bottom: 17.5%;
     padding-inline: 25%;
     /* background: linear-gradient(135deg, #2575fc, #6a11cb); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("image5.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("image5.jpg");
+    background-size: cover;
     color: white;
     clip-path: ellipse(100% 90% at 50% 0%);
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 15px;
     color:#d1d1ff;
