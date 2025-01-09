@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Cosmose</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        img {
+            border-radius: 20px;
+        }
+
+        /* Popup styles */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            overflow: hidden;
+        }
+
+        .popup img {
+            max-width: 50%;
+            float: left;
+            padding-inline: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .popup .text {
+            padding: 20px;
+            font-size: 1.2rem;
+        }
+
+
+        .popup .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #ff5f57;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo"><img src="logo.png" alt="TEAM COSMOSE" width="30%" height="auto"></a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#innovation">Innovation</a></li>
+                    <li><a href="#impact">Impact</a></li>
+                    <li><a href="#team">Team</a></li>
+                </ul>
+                <!-- <button id="darkModeToggle">🌙</button> -->
+            </div>
+        </nav>
+
+        <div class="hero">
+            <h1>Welcome to Our Team Website</h1><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum
+                vestibulum. Cras venenatis euismod malesuada. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia curae; Proin vulputate ultricies lorem, nec vestibulum
+                urna volutpat id.</p>
+            <!-- <img src="image5.jpeg" alt="Hero Image" style="max-width: 40%; height: auto; margin-top: 20px;"> -->
+        </div>
+    </header>
+    <section id="aboutus">
+        <h2>Introduction</h2>
+        <img src="image3.1.jpeg" alt="About Us Image" style="max-width: 0%; height: auto; margin-bottom: 20px;"
+            class="section-image">
+        <p>Eutrophication is a global environmental issue resulting in degraded water quality, changes in ecosystems and
+            economic distribution in industries like agriculture, fishery, and tourism. Our Kraken is a cutting-edge
+            water filtration system that uses a cellulose-graphene filter membrane to improve water quality and fight
+            eutrophication.
+            <br>
+            The purpose of Kraken is twofold: to provide an eco-friendly alternative to traditional water filtration
+            systems and to repurpose invasive algae that harm aquatic ecosystems. With our easy-to-use, modular
+            filtration units, consumers can integrate Kraken into water treatment facilities, agricultural irrigation
+            systems, and industrial processes.
+        </p>
+    </section>
+    <section id="innovation">
+        <h2>How It Works</h2>
+        <img src="image1.jpeg" alt="Innovation Image" style="max-width: 0%; height: auto; margin-bottom: 20px;"
+            class="section-image">
+        <p>Using surplus algae—one of the main byproducts of eutrophication—we synthesize cellulose, a key part of our
+            filtration technology, as a sustainable solution. Our unique approach not only purifies water but also
+            reduces the ecological impact of invasive algae species, contributing to the restoration of aquatic
+            ecosystems and ensuring cleaner water for communities and industries.
+        </p>
+    </section>
+    <section id="impact">
+        <h2>Why Kraken?</h2>
+        <img src="image2.2.jpg" alt="Impact Image" style="max-width: 0%; height: auto; margin-bottom: 20px;"
+            class="section-image">
+        <p>Chemical treatments, mechanical filtration systems, and biological remediation methods are the conventional
+            treatment means our innovation competes with. These approaches may work well for some classes of pollutants,
+            but due to their high operational cost (i.e., power driven procedures), the need for power and the
+            contaminant scavenging capabilities it possesses, these are usually limited. Despite that, our
+            cellulose-graphene membrane technology offers a complete solution by effectively managing inorganic and
+            organic contaminants.
+            <br>
+            Kraken provides a new strategy for stopping water pollution and eutrophication. Unlike the usual filtration
+            systems which often use artificial materials and a lot of energy, our algae-based technology is economical,
+            sustainable, and ecologically benign.
+        </p>
+    </section>
+    <section id="team">
+        <h2>Impact on the Environment and Society:
+        </h2>
+        <img src="image5.jpeg" alt="Team Image" style="max-width: 0%; height: auto; margin-bottom: 20px;"
+            class="section-image">
+        <p>Kraken uses invasive algae in order to restore aquatic ecosystems by reducing the negative effects that their
+            proliferation causes and reestablishing the equilibrium of impacted water bodies. Our efforts have also
+            produced readily available clean water. Our filtering technology supports public health and economic
+            development by ensuring that communities, businesses, and agricultural systems have access to clean water.
+            <br>
+            Reducing Waste: By converting algal waste, Kraken transforms the environmental hazard into a useful
+            resource.
+        </p>
+    </section>
+    <section id="motivation">
+        <h2>Motivation and Problem-Solving:</h2>
+        <img src="image7.jpeg" alt="Team Image" style="max-width: 0%; height: auto; margin-bottom: 20px;"
+            class="section-image">
+        <p>The benefits of our Kraken like the dual-action nature, scalability, and eco-friendliness ensure its
+            competitiveness within the growing market for eco-friendly water treatment technologies, despite the
+            challenging aspects associated with the use of graphene and its high cost. The benefits of our method such
+            as the dual-action nature, scalability, and eco-friendliness ensure its competitiveness within the growing
+            market for eco-friendly water treatment technologies, despite the challenging aspects associated with the
+            use of graphene and its high cost.
+
+        </p>
+    </section>
+
+    <!-- Yeni Meet With Our Team Bölümü -->
+    <div id="team-introduction">
+        <h2>Meet With Our Team</h2>
+        <div class="team-member">
+            <img src="team1.jpg" alt="Team Member 1" style="width: 150px; border-radius: 50%; margin-bottom: 10px;">
+            <h3>Ayça Naz Kurt</h3>
+            <p>Product Design & Development Specialist</p>
+            <p>As a Biology Olympiad contestant, Ayça brings expertise in studying and leveraging invasive algae for
+                innovative solutions. Ayça’s focus is on developing and optimizing the cellulose-graphene filtration
+                membrane, ensuring that our product is both effective and sustainable.
+            </p>
+        </div>
+        <div class="team-member">
+            <img src="team2.jpg" alt="Team Member 2" style="width: 150px; border-radius: 50%; margin-bottom: 10px;">
+            <h3>Azra Maraş</h3>
+            <p> Strategic Planner & Environmental Advocate
+            </p>
+            <p>Having experience as president of an innovation club in planning and project management, Azra is
+                responsible for our growth agenda, our market research, and the setting up of strategic alliances to get
+                broad adop of our technology. Azra’s background in organizing innovation-driven projects and her
+                determination to tackle environmental challenges drive her ability to connect with stakeholders.
+            </p>
+        </div>
+        <div class="team-member">
+            <img src="team3.jpg" alt="Team Member 3" style="width: 150px; border-radius: 50%; margin-bottom: 10px;">
+            <h3>Alphan Özcan</h3>
+            <p>Product Design Support & CAD Specialist</p>
+            <p>Alphan transformes ideas into tangible solutions. With his background as a CAD specialist from an FRC
+                team, he supports Ayça in the design and prototyping of the filtration membrane and its integration into
+                aquatic ecosystems. His technical expertise allows the team to produce accurate designs for real-world
+                applications. Alphan’s dedication to innovation and his ability to think critically make him a part of
+                the team’s creative and engineering process.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Team Cosmose. All Rights Reserved.</p>
+    </footer>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="popup">
+        <button class="close-btn" id="closePopup">&times;</button>
+        <img src="" alt="Popup Image" id="popupImage">
+        <div class="text" id="popupText"></div>
+    </div>
+
+    <script>
+        const sections = document.querySelectorAll('section');
+        const popup = document.getElementById('popup');
+        const overlay = document.getElementById('overlay');
+        const popupImage = document.getElementById('popupImage');
+        const popupText = document.getElementById('popupText');
+        const closePopup = document.getElementById('closePopup');
+
+        sections.forEach((section) => {
+            section.addEventListener('click', () => {
+                const image = section.querySelector('img');
+                const text = section.querySelector('p').textContent;
+
+                popupImage.src = image.src;
+                popupText.textContent = text;
+
+                popup.style.display = 'block';
+                overlay.style.display = 'block';
+            });
+        });
+
+        closePopup.addEventListener('click', () => {
+            popup.style.display = 'none';
+            overlay.style.display = 'none';
+        });
+
+        overlay.addEventListener('click', () => {
+            popup.style.display = 'none';
+            overlay.style.display = 'none';
+        });
+    </script>
+</body>
+
+</html>
